@@ -6,9 +6,11 @@ php:
   - 7.1
   - hhvm
 
-sudo: required
+sudo: false
 
 dist: trusty
+
+group: edge
 
 install: travis_retry composer install --no-interaction --prefer-source
 
